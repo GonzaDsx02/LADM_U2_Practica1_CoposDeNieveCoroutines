@@ -44,7 +44,7 @@ class Copos(lienzo: Lienzo) {
     }
 
     fun mover(){
-        if(cy <= l.height+radio){
+        if(cy <= l.height-radio){
             cy+=speed
         }else{
             if(cayendo){

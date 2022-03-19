@@ -50,7 +50,7 @@ class Lienzo(este: MainActivity) : View(este) {
                     tope = false
                 }
             }
-            delay(100L)
+            delay(50L)
         }
     }
 
